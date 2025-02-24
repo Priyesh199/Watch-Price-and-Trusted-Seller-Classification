@@ -256,7 +256,7 @@ def main():
             st.write("Input Features:", input_df.columns.tolist())
             st.write("Expected Features:", model_xgb.feature_names_in_.tolist())
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
 # import streamlit as st
 # import pandas as pd
